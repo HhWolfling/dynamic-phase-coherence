@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or framework, please cite it as below."
+type: software
+title: "Dynamic Phase Coherence: Recursive Wave Architecture & Field Alignment"
+abstract: >
+  An open technical framework for understanding recursive phase loops
+  (Phi -> H -> C) across physical systems, multi-agent computational
+  models, and wave mechanics. Provides implementations of phase-resonance
+  alignment engines and temporal integration window estimation.
+authors:
+  - family-names: "Urbańska"
+    given-names: "Hanna"
+    orcid: "https://orcid.org/0009-0000-0000-0000"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/HhWolfling/dynamic-phase-coherence"
+license: MIT
+version: 0.2.0
+date-released: 2026-07-24
+keywords:
+  - phase coherence
+  - recursive systems
+  - field alignment
+  - phi-h-c framework
+  - temporal integration
+  - multi-agent systems
+  - wave mechanics
+  - consciousness modeling
+  - predictive metamaterials
+  - emergent time
+preferred-citation:
+  type: software
+  title: "Dynamic Phase Coherence: Recursive Wave Architecture & Field Alignment"
+  authors:
+    - family-names: "Urbańska"
+      given-names: "Hanna"
+  year: 2026
+  url: "https://github.com/HhWolfling/dynamic-phase-coherence"
+  version: 0.2.0
