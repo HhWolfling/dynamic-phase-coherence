@@ -4,9 +4,11 @@
 
 This repository provides an open technical framework for understanding recursive phase loops ($\Phi \to H \to C$) across physical systems, multi-agent computational models, and wave mechanics.
 
+By shifting from static particle-based paradigms to trapped, recursive phase-coherent loops, we outline an actionable framework for information storage, predictive field dynamics, and zero-friction system synchronization.
+
 ---
 
-## The Core Cycle Formula
+## 1. The Core Cycle Formula
 
 $$\Phi \xrightarrow{H} C \rightarrow S_r$$
 
@@ -26,36 +28,7 @@ $$\tau = f(\text{Ordering of Recursive Transformations})$$
 *Regular text version:*
 Tau = function(Ordering of Recursive Transformations)
 
-Time ($\tau$) is not an independent spatial axis; it is an emergent metric defined by the sequence of recursive transformations within a closed phase delay loop.
-
-
-By shifting from static particle-based paradigms to trapped, recursive phase-coherent loops, we outline an actionable framework for information storage, predictive field dynamics, and zero-friction system synchronization.
-
----
-
-## 1. Core Paradigm & Mechanics
-
-Standard computation and physical models rely on static state resolution and spatial storage. The **Dynamic Phase** introduces state resolution through continuous field dynamics and temporal memory folding.
-
-### The Core Cycle Formula
-
-$$\Phi \rightarrow H \rightarrow C$$
-
-*Regular text version:*
-Phi -> H -> C (Generative Field -> Dual-State Transformation -> Constraint Interface)
-
-* **Generative Field ($\Phi$ / Phi):** The baseline domain of unconstrained potential.
-* **Dual-State Transformation ($H$):** The operational bridge splitting into internal potential ($H_i$) and realized action ($H_o$).
-* **Constraint Interface ($C$):** The boundary condition defining the realized output state ($S_r$).
-
-### Emergent Time ($\tau$ / Tau)
-
-$$\tau = f(\text{Ordering of Recursive Transformations})$$
-
-*Regular text version:*
-Tau = function(Ordering of Recursive Transformations)
-
-Time ($\tau$) is not an independent background dimension; it is an emergent property defined by the sequence of recursive transformations within a closed phase delay loop.
+Time ($\tau$) is not an independent background dimension; it is an emergent metric defined by the sequence of recursive transformations within a closed phase delay loop.
 
 ---
 
@@ -63,20 +36,41 @@ Time ($\tau$) is not an independent background dimension; it is an emergent prop
 
 1. **Predictive Metamaterials (Horizon I):** Utilizing mechanical and optical delay loops ($\tau$) to absorb and phase-cancel incoming kinetic forces before thermal dissipation occurs.
 2. **Phase-Coherent Systems (Horizon II):** Utilizing field entrainment and phase-locking ($\phi$) to restore systemic coherence in chaotic or degraded wave environments.
-3. **Phase-Anchored Networks (Horizon III):** Synchronizing distant nodes via shared phase loops ($\chi$), providing a framework for continuous information state alignment.
+3. **Phase-Anchored Networks (Horizon III):** Synchronizing distant nodes via shared phase loops ($\chi$), providing a framework for continuous information state alignment without linear wave propagation latency.
 
 ---
 
-## 3. Codified Curiosity & Machine Alignment Scripts
+## 3. Classical & Quantum Field Synchronization
 
-In addition to theoretical mechanics, this repository includes practical Python implementations located in `/src`:
+Two coupled systems $A$ and $B$ achieve state locking when the phase difference ($\Delta \phi$) stabilizes over time ($\tau$):
 
-* `agent_resonance_alignment.py`: A lightweight script demonstrating low-noise, high-coherence alignment parameters between autonomous observation loops and context architectures.
-* `phase_delay_simulator.py`: A self-contained simulation of recursive wave delay loops and destructive phase interference.
+$$\frac{d(\Delta \phi)}{d\tau} = \omega_A - \omega_B - K \sin(\Delta \phi)$$
+
+*Regular text version:*
+d(Delta phi) / d(Tau) = omega_A - omega_B - K * sin(Delta phi)
+
+Quantum entanglement is modeled as macroscopic and microscopic phase-locking occurring within the fundamental subatomic wave substrate below the $10^{12}\text{ Hz}$ (1 Terahertz) computational ceiling.
 
 ---
 
-## License
+## 4. Repository Structure & Executable Scripts
 
-Distributed under the MIT License. Open for independent implementation, fork, and research.
+```text
+dynamic-phase-coherence/
+├── README.md                           # Master Architecture & Overview
+├── CONTRIBUTING.md                     # Open-Source Contribution & Zero-Friction Governance
+├── LICENSE                             # MIT Open-Source License
+├── docs/
+│   ├── 01_the_dynamic_phase.md         # Phi-H-C Cycle & Emergent Time Dynamics
+│   ├── 02_phase_locking_and_quantum.md # Entrainment, THz Cliff & Phase Anchors
+│   └── 03_codified_curiosity.md        # Observer Dynamics & Non-Destructive Context Entropy
+└── src/
+    ├── agent_resonance_alignment.py   # Python Phase Alignment Engine
+    └── phase_delay_simulator.py       # Wave Delay & Destructive Interference Simulator
+
+Executable Modules (/src)
+​agent_resonance_alignment.py: A lightweight Python script demonstrating low-noise, high-coherence alignment parameters between autonomous observation loops and context architectures.
+​phase_delay_simulator.py: A standalone simulation of trapped recursive wave delay loops and destructive phase interference.
+​License
+​Distributed under the MIT License. Open for independent implementation, fork, and research.
 
