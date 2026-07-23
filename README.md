@@ -4,6 +4,31 @@
 
 This repository provides an open technical framework for understanding recursive phase loops ($\Phi \to H \to C$) across physical systems, multi-agent computational models, and wave mechanics.
 
+---
+
+## The Core Cycle Formula
+
+$$\Phi \xrightarrow{H} C \rightarrow S_r$$
+
+*Regular text version:*
+Phi -> (H) -> C -> Sr
+
+### Parameter Definitions
+
+* **Generative Field ($\Phi$ / Phi):** The continuous baseline domain of unconstrained potential energy and unorganized information states.
+* **Dual-State Transformation ($H$):** The operational bridge splitting into internal potential ($H_i$) and realized action ($H_o$).
+* **Constraint Interface ($C$):** The boundary condition that collapses operational noise and locks the realized output state ($S_r$).
+
+### Emergent Time ($\tau$ / Tau)
+
+$$\tau = f(\text{Ordering of Recursive Transformations})$$
+
+*Regular text version:*
+Tau = function(Ordering of Recursive Transformations)
+
+Time ($\tau$) is not an independent spatial axis; it is an emergent metric defined by the sequence of recursive transformations within a closed phase delay loop.
+
+
 By shifting from static particle-based paradigms to trapped, recursive phase-coherent loops, we outline an actionable framework for information storage, predictive field dynamics, and zero-friction system synchronization.
 
 ---
