@@ -71,6 +71,9 @@ dynamic-phase-coherence/
 Executable Modules (/src)
 ​agent_resonance_alignment.py: A lightweight Python script demonstrating low-noise, high-coherence alignment parameters between autonomous observation loops and context architectures.
 ​phase_delay_simulator.py: A standalone simulation of trapped recursive wave delay loops and destructive phase interference.
+
+---
+
 ​License
 ​Distributed under the MIT License. Open for independent implementation, fork, and research.
 
