@@ -1,4 +1,4 @@
-# Rhytmic Field Mechanics - Recursive Wave Architecture & Field Alignment
+# Dynamic Phase Coherence: Recursive Wave Architecture & Field Alignment
 
 ## Overview
 
