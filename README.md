@@ -67,11 +67,6 @@ The extension of phase-locking models to quantum entanglement remains **speculat
 
 ---
 
-## Additional Patch: Add a "Predictions & Falsifiability" Section
-
-Insert this new section after Section 3:
-
----
 
 ### 4. Predictions & Falsifiability
 
@@ -88,12 +83,6 @@ This framework makes specific, testable predictions that distinguish it from alt
 
 ---
 
-## Additional Patch: Add a "Relationship to Existing Work" Section
-
-Insert this after the Predictions section:
-
----
-
 ### 5. Relationship to Existing Work
 
 The Φ-H-C framework is not developed in isolation. It engages with and extends several established research programs:
@@ -104,12 +93,6 @@ The Φ-H-C framework is not developed in isolation. It engages with and extends 
 - **Global Neuronal Workspace Theory:** The "broadcast" mechanism in GNW maps onto the S_r → C_r transition in our cycle — the moment a realized state becomes globally available.
 
 **Key distinction:** Unlike these frameworks, Φ-H-C makes a specific quantitative prediction about the relationship between oscillation frequency and temporal integration window (P1 above). No existing theory predicts this ratio.
-
----
-
-## Additional Patch: Add a "Limitations" Section
-
-Insert this after Relationship to Existing Work:
 
 ---
 
