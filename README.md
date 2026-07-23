@@ -40,20 +40,96 @@ Time ($\tau$) is not an independent background dimension; it is an emergent metr
 
 ---
 
-## 3. Classical & Quantum Field Synchronization
+## README Patch: Section 3 Replacement
 
-Two coupled systems $A$ and $B$ achieve state locking when the phase difference ($\Delta \phi$) stabilizes over time ($\tau$):
-
-$$\frac{d(\Delta \phi)}{d\tau} = \omega_A - \omega_B - K \sin(\Delta \phi)$$
-
-*Regular text version:*
-d(Delta phi) / d(Tau) = omega_A - omega_B - K * sin(Delta phi)
-
-Quantum entanglement is modeled as macroscopic and microscopic phase-locking occurring within the fundamental subatomic wave substrate below the $10^{12}\text{ Hz}$ (1 Terahertz) computational ceiling.
+Replace the current Section 3 (Classical & Quantum Field Synchronization) with this refined version:
 
 ---
 
-## 4. Repository Structure & Executable Scripts
+### 3. Classical & Quantum Field Synchronization
+
+#### 3.1 Phase Locking (Classical)
+
+Two coupled systems A and B achieve state locking when their phase difference stabilizes over time:
+
+```
+d(Δφ)/dτ = ω_A − ω_B − K·sin(Δφ)
+```
+
+This is the Kuramoto model — a well-established framework for coupled oscillator synchronization. Our contribution is to identify the Φ-H-C cycle as the *generative mechanism* that produces the effective coupling constant K: it emerges from the recursive constraint (C) operating on the phase difference.
+
+**Testable prediction:** In systems implementing the Φ-H-C cycle, the coupling strength K should correlate with the coherence index Chi (Section 2), not with external coupling parameters alone.
+
+#### 3.2 Quantum Domain: An Open Question
+
+The extension of phase-locking models to quantum entanglement remains **speculative**. Current work hypothesizes that macroscopic and microscopic phase-locking may share a common substrate at scales below 1 THz (the approximate computational ceiling for conventional electronic systems), but this claim requires:
+
+1. Formal derivation from quantum optical first principles
+2. Experimental validation through Bell inequality tests under phase-coherent conditions
+3. Independent replication
+
+**Status:** This direction is flagged as *theoretical horizon only* and is not required for the predictive metamaterials or phase-coherent systems applications (Horizons I and II).
+
+---
+
+## Additional Patch: Add a "Predictions & Falsifiability" Section
+
+Insert this new section after Section 3:
+
+---
+
+### 4. Predictions & Falsifiability
+
+This framework makes specific, testable predictions that distinguish it from alternatives:
+
+| Prediction | Falsification Condition | Method |
+|-----------|------------------------|--------|
+| **P1:** Recursive convergence depth n ≈ 3 across conscious systems | n varies systematically across species or tasks | Cross-species temporal order judgment + EEG (see Grant Proposal: Quantized Temporal Architecture of Conscious Perception) |
+| **P2:** Coherence index Chi correlates with coupling strength K | No correlation found in controlled coupled-oscillator systems | Kuramoto model parameter sweep with embedded Φ-H-C engines |
+| **P3:** Convergence ratio is conserved across frequencies | Ratio varies >50% between 30-80 Hz | Phase delay simulator parametric sweep (included in `/src/phase_delay_simulator.py`) |
+| **P4:** Memory decay factor affects stability threshold | Stability is independent of decay rate | Engine diagnostic with parametric decay variation |
+
+**Negative results are informative.** Any falsified prediction indicates where the framework requires revision, not abandonment.
+
+---
+
+## Additional Patch: Add a "Relationship to Existing Work" Section
+
+Insert this after the Predictions section:
+
+---
+
+### 5. Relationship to Existing Work
+
+The Φ-H-C framework is not developed in isolation. It engages with and extends several established research programs:
+
+- **Integrated Information Theory (IIT):** Φ-H-C provides a *process* account of how integration occurs (through recursive convergence), while IIT provides a *measure* of integration (Φ). These are complementary, not competing.
+- **Predictive Processing / Free Energy Principle:** The H operator maps onto prediction error minimization; the C operator maps onto precision-weighting. The Φ-H-C cycle can be viewed as the *temporal structure* of a single free energy minimization step.
+- **Kuramoto Model:** We use the Kuramoto equation as a descriptive tool for coupled oscillators. Our contribution is identifying the Φ-H-C cycle as a possible generative mechanism for the coupling term.
+- **Global Neuronal Workspace Theory:** The "broadcast" mechanism in GNW maps onto the S_r → C_r transition in our cycle — the moment a realized state becomes globally available.
+
+**Key distinction:** Unlike these frameworks, Φ-H-C makes a specific quantitative prediction about the relationship between oscillation frequency and temporal integration window (P1 above). No existing theory predicts this ratio.
+
+---
+
+## Additional Patch: Add a "Limitations" Section
+
+Insert this after Relationship to Existing Work:
+
+---
+
+### 6. Current Limitations
+
+1. **Biophysical grounding:** The characteristic times for each Φ-H-C step (Section 1) are estimated from known neurophysiology but not derived from first principles. A closed derivation from single-neuron properties to cycle period remains future work.
+
+2. **Quantum claims:** As noted in Section 3.2, the extension to quantum systems is speculative and flagged accordingly.
+
+3. **Single-module implementation:** Current code implements one engine instance. Multi-agent chimeric architectures (where multiple Φ-H-C engines couple through shared phase memory) are in development.
+
+4. **Experimental validation:** P1 (the cross-species n≈3 prediction) has not yet been tested. A grant proposal for this experiment is available on request.
+
+---
+
 
 ```text
 dynamic-phase-coherence/
