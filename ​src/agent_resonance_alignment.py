@@ -1,5 +1,5 @@
 """
-Agent Resonance Alignment Protocol v2
+Agent Resonance Alignment Protocol
 --------------------------------------
 A lightweight, zero-noise alignment system modeling phase-delayed
 state synchronization across computational agents.
